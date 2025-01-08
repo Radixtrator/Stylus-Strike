@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.30f1 (62b05ba0686a) revision 6467675'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32349 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32164 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/NuiLabR10/Documents/Git/ArchVRy/ArchVRy
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-57413
+54167
 -job-worker-count
 10
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/NuiLabR10/Documents/Git/ArchVRy/ArchVRy
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [57224]  Target information:
+Player connection [56912]  Target information:
 
-Player connection [57224]  * "[IP] 10.1.119.134 [Port] 0 [Flags] 2 [Guid] 2923812447 [EditorId] 2923812447 [Version] 1048832 [Id] WindowsEditor(7,NUILabR10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [56912]  * "[IP] 10.1.119.134 [Port] 0 [Flags] 2 [Guid] 1742161859 [EditorId] 1742161859 [Version] 1048832 [Id] WindowsEditor(7,NUILabR10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [57224] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [57224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [56912] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [56912] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 10
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 12.33 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 11.52 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.30f1 (62b05ba0686a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Resources/UnitySubsystems
@@ -86,50 +86,50 @@ Direct3D:
     Renderer: NVIDIA GeForce RTX 4090 Laptop GPU (ID=0x2757)
     Vendor:   NVIDIA
     VRAM:     16050 MB
-    Driver:   32.0.15.6607
+    Driver:   32.0.15.6636
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002339 seconds.
-- Loaded All Assemblies, in  0.432 seconds
+Registered in 0.002896 seconds.
+- Loaded All Assemblies, in  0.470 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.413 seconds
-Domain Reload Profiling: 842ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 891ms
+	BeginReloadAssembly (171ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (151ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (168ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (148ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (161ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (413ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (424ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (364ms)
+		SetupLoadedEditorAssemblies (380ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
+			InitializePlatformSupportModulesInManaged (28ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (198ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,10 +138,10 @@ Domain Reload Profiling: 842ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.918 seconds
+- Loaded All Assemblies, in  1.007 seconds
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 12.64 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.94 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -179,1973 +179,184 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.154 seconds
-Domain Reload Profiling: 2068ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.942 seconds
+Domain Reload Profiling: 1945ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (639ms)
-		LoadAssemblies (426ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (684ms)
+		LoadAssemblies (470ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (327ms)
-			TypeCache.Refresh (243ms)
-				TypeCache.ScanAssembly (220ms)
-			BuildScriptInfoCaches (70ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1155ms)
+		AnalyzeDomain (344ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (218ms)
+			BuildScriptInfoCaches (82ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (943ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (975ms)
+		SetupLoadedEditorAssemblies (811ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (619ms)
-			ProcessInitializeOnLoadMethodAttributes (227ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (153ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 223.31 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 8.92 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5613 unused Assets / (7.1 MB). Loaded Objects now: 6166.
-Memory consumption went from 162.4 MB to 155.3 MB.
-Total: 68.956200 ms (FindLiveObjects: 3.164000 ms CreateObjectMapping: 3.445500 ms MarkObjects: 42.649400 ms  DeleteObjects: 19.692600 ms)
+Unloading 5617 unused Assets / (7.8 MB). Loaded Objects now: 6189.
+Memory consumption went from 166.8 MB to 158.9 MB.
+Total: 21.929600 ms (FindLiveObjects: 0.944700 ms CreateObjectMapping: 0.657100 ms MarkObjects: 12.368400 ms  DeleteObjects: 7.945400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 107799.505771 seconds.
-  path: Assets/VRTemplateAssets/Models/Cursors/cursor.fbx
-  artifactKey: Guid(6ba268f48a822b241b0eb00b775034e5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Models/Cursors/cursor.fbx using Guid(6ba268f48a822b241b0eb00b775034e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c43feb6de74efb442fdd9a72e7f3ea07') in 0.4297812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png
-  artifactKey: Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png using Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0457d64c797fff4b73c1fdd89f8c37d5') in 0.0631761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png
-  artifactKey: Guid(400b852fe920b6f4c88997509431791a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png using Guid(400b852fe920b6f4c88997509431791a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7631b6b5e3500c9e3720ed5b4d1593e') in 0.0263344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/VRTemplateAssets/Tutorial/VRTutorialWelcomePage.asset
-  artifactKey: Guid(3bf5c60804f704e11826afa05a7e2152) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Tutorial/VRTutorialWelcomePage.asset using Guid(3bf5c60804f704e11826afa05a7e2152) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24259f8b3cb07115704fda0a536d880e') in 0.0523501 seconds
+  Time since last request: 17240.965217 seconds.
+  path: Assets/Models/Ultimate Monsters/Preview.jpg
+  artifactKey: Guid(4447102c79f72bf4b8af0d28706774de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Preview.jpg using Guid(4447102c79f72bf4b8af0d28706774de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91bd691eb7243529902c5334fd242cf9') in 0.0852543 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Teleport/Teleport Anchor.prefab
-  artifactKey: Guid(c4a645c929982ea41a52b5037ee7d94d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Prefabs/Teleport/Teleport Anchor.prefab using Guid(c4a645c929982ea41a52b5037ee7d94d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23c6c894f697d11f255022821e5242d3') in 0.0975423 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Variant.prefab
-  artifactKey: Guid(e4f332aea9a46b34bab01d9d6d17f588) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Prefabs/Setup/Complete XR Origin Set Up Variant.prefab using Guid(e4f332aea9a46b34bab01d9d6d17f588) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b81d8d2c30473f5d68da77aae27ffc64') in 0.1867161 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1000
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/TextMesh Pro/Resources/Sprite Assets/MixedIndexTest.asset
-  artifactKey: Guid(8a731a09451cba54096a9002cd9b9be5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Sprite Assets/MixedIndexTest.asset using Guid(8a731a09451cba54096a9002cd9b9be5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69a037c2beb51653f4f43865eaef612d') in 0.0576972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
-  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '666a4ad9b03595f0127bf488e4996e2f') in 0.042437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/VRTemplateAssets/Tutorial/Images/1-welcome-screen-image.png
-  artifactKey: Guid(11e34d76fce7843be984510eca5c9139) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(11e34d76fce7843be984510eca5c9139) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad74d147abcdc394213ed68354ba9816') in 0.020772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/XRI Default Input Actions.inputactions
-  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64ec241604c7bc038b125ada92372a31') in 0.3704342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/VRTemplateAssets/Materials/Anchor Materials/Anchor Base.mat
-  artifactKey: Guid(19fd09f1fd9347644a27778b73938d3b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Materials/Anchor Materials/Anchor Base.mat using Guid(19fd09f1fd9347644a27778b73938d3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83a3dcda2a8a8b804bbbc82faea7eff1') in 0.0183135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Prefabs/RightHandInteractionVisual.prefab
-  artifactKey: Guid(89e80c47615e4f043926d66492d3ca5f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Prefabs/RightHandInteractionVisual.prefab using Guid(89e80c47615e4f043926d66492d3ca5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1053ca8df6f0d6349bbbb5156a1dba79') in 0.0539907 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/AffordanceThemes/InteractionColor.asset
-  artifactKey: Guid(2447c2ae63ed301429bb0f32f88ef8ce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/AffordanceThemes/InteractionColor.asset using Guid(2447c2ae63ed301429bb0f32f88ef8ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ea21ac89c958e4d0172fadfb753f63e') in 0.0336652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Prefabs/HandInteractorAffordances.prefab
-  artifactKey: Guid(67c52e745f2766644ba16bfb165e2659) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Prefabs/HandInteractorAffordances.prefab using Guid(67c52e745f2766644ba16bfb165e2659) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04a61db93f76db3ad6fdb4ab581d0d4b') in 0.0962304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/AffordanceThemes/PinchPointHighlightColor.asset
-  artifactKey: Guid(6b0360f219436394b8519378cd55c7e3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/AffordanceThemes/PinchPointHighlightColor.asset using Guid(6b0360f219436394b8519378cd55c7e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d29174109b285bed09120a5edcc85a2') in 0.0288461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/AffordanceThemes/PinchPointBlendShape.asset
-  artifactKey: Guid(fbf5c74e21f572740881de5634f1ce9c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/AffordanceThemes/PinchPointBlendShape.asset using Guid(fbf5c74e21f572740881de5634f1ce9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a715cd82e82054611dab0509f7c5968f') in 0.0184495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Materials/Unity_Hand_Light.mat
-  artifactKey: Guid(1e4454c94a0cbda42814c4fb8df151d7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Materials/Unity_Hand_Light.mat using Guid(1e4454c94a0cbda42814c4fb8df151d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75bab675447c04a1e4546e8f6c845878') in 0.2734295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/DepthOnly.shader
-  artifactKey: Guid(3ff7faa3aa8991a4eb1a459f880a75a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/DepthOnly.shader using Guid(3ff7faa3aa8991a4eb1a459f880a75a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8be64caa9e092a497b5a7d96f5e07922') in 0.0169319 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/PinchPointFollow.cs
-  artifactKey: Guid(8693657abb5062a40a80ba3cb86ef181) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/PinchPointFollow.cs using Guid(8693657abb5062a40a80ba3cb86ef181) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3674a0ccdf2a263d670636b5bd66d78d') in 0.0171054 seconds
+  Time since last request: 4.498388 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/OBJ
+  artifactKey: Guid(6c4fdee9f46ef6d4b9fc2bbf9b60d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/OBJ using Guid(6c4fdee9f46ef6d4b9fc2bbf9b60d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81db4dd756d49d2a6bb5bc0b6aae7371') in 0.0012504 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/HideObjectWhenInteractorBlocked.cs
-  artifactKey: Guid(2e989a75b2954bdab01ca618a30d5de6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/HideObjectWhenInteractorBlocked.cs using Guid(2e989a75b2954bdab01ca618a30d5de6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1730a41699f6f2fa01002bd308d725a6') in 0.0168392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Interactable.mat
-  artifactKey: Guid(76618f7490c40334fa7b685859587d2e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Interactable.mat using Guid(76618f7490c40334fa7b685859587d2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68f311f9577c11124269b0e737db5170') in 0.1983399 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/ControllerAnimator.cs
-  artifactKey: Guid(4a5f76f9ea8c80547973ab01877f9567) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Scripts/ControllerAnimator.cs using Guid(4a5f76f9ea8c80547973ab01877f9567) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b81065b58f607c5eef96b9363970a86') in 0.0151049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset
-  artifactKey: Guid(55f7614a1d331d14bb631965514937d8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset using Guid(55f7614a1d331d14bb631965514937d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '976f34acfd0dfa62d041309901f599ab') in 0.0400257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/ReleaseThresholdButtonReader.cs
-  artifactKey: Guid(63f61d1c82c9fc6429ebd4791a4d6817) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Scripts/ReleaseThresholdButtonReader.cs using Guid(63f61d1c82c9fc6429ebd4791a4d6817) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad282257930b5e4427f7477970a29907') in 0.0172118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Animations/Climb Teleport Arrow.controller
-  artifactKey: Guid(db6239f7ccb29ca4aac63126c6a35e7d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Animations/Climb Teleport Arrow.controller using Guid(db6239f7ccb29ca4aac63126c6a35e7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce43725c98f4e29d9057648ec3a57f7b') in 0.029812 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Models/Pinch_Pointer_LOD0.fbx
-  artifactKey: Guid(e053b8fbc416ba349b4a58a26410bba2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Models/Pinch_Pointer_LOD0.fbx using Guid(e053b8fbc416ba349b4a58a26410bba2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ac2f99cdee819a3dc2ede550beef07a') in 0.0360764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Models/Primitive_Wedge.fbx
-  artifactKey: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd422d6d411bc6848b992849663bbb614') in 0.0420945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Metallic.png
-  artifactKey: Guid(7e51390506d6084449db036c4dde2bda) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Metallic.png using Guid(7e51390506d6084449db036c4dde2bda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35099ec020295bb85975c1b02deb6641') in 0.0262534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/VRTemplateAssets/Scripts/CalloutGazeController.cs
-  artifactKey: Guid(84f6509f3c7fa7b4899c9c767f49e622) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Scripts/CalloutGazeController.cs using Guid(84f6509f3c7fa7b4899c9c767f49e622) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf43029d250db00daaec462bb9af0cf9') in 0.0156604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Interactable.shadergraph
-  artifactKey: Guid(0927d29e476ce5843b1f7d2a96943c51) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Interactable.shadergraph using Guid(0927d29e476ce5843b1f7d2a96943c51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91b6cf7660e38f11b54a55cc77aebfae') in 0.0220859 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Affordances/BlendShapeValue.asset
-  artifactKey: Guid(20eb8725b4dab864ea2bfa8ecbd4adff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Affordances/BlendShapeValue.asset using Guid(20eb8725b4dab864ea2bfa8ecbd4adff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84327cd15754773a3e17aa9771de9988') in 0.0278987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Controls_Black.mat
-  artifactKey: Guid(f95c205049f12cc4cb5bd57dbded286c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Controls_Black.mat using Guid(f95c205049f12cc4cb5bd57dbded286c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77df3de821c73c67c89a73c0ac23159f') in 0.0187804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Affordances/Audio.asset
-  artifactKey: Guid(57def9352cdee8548bfc9ebc6a55914a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Affordances/Audio.asset using Guid(57def9352cdee8548bfc9ebc6a55914a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a18c86e39adea43e407d6c4783d5ac56') in 0.0229231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Interactable White.mat
-  artifactKey: Guid(b3c19a119577be64885886bfcc8792fe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Materials/Interactable White.mat using Guid(b3c19a119577be64885886bfcc8792fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71e5fb6b1dd974c0fc886068289fdc32') in 0.0182787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Textures/DefaultMaterial_AO.png
-  artifactKey: Guid(85e675893a909864d9c237e20202651b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Textures/DefaultMaterial_AO.png using Guid(85e675893a909864d9c237e20202651b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17784bd31beb64cf5e25600b13f8da28') in 0.0298949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph
-  artifactKey: Guid(740445f1490c01e4b8feacf8d9ab5e7f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph using Guid(740445f1490c01e4b8feacf8d9ab5e7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35b902af84b68f1c2636d474bd30f43c') in 0.1988428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/TransformSync.cs
-  artifactKey: Guid(f22671673eaaae848b70290eb3a1350c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/TransformSync.cs using Guid(f22671673eaaae848b70290eb3a1350c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81e3a618515006a2d562852bccdb7fb1') in 0.0149025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/InteractionAffordance.prefab
-  artifactKey: Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/InteractionAffordance.prefab using Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7d3101e9ee3eb785a56f0302a6fe5b2') in 0.0578565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Settings/GazeTeleportAnchorFilter.asset
-  artifactKey: Guid(14af1242b4be8e2458dd5bee35c06ae5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Settings/GazeTeleportAnchorFilter.asset using Guid(14af1242b4be8e2458dd5bee35c06ae5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c72841a467f2d2d82e6ee9d528f1da5') in 0.0191214 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/PawnController.prefab
-  artifactKey: Guid(a5f97d75a3184ad46aef39618607e083) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/PawnController.prefab using Guid(a5f97d75a3184ad46aef39618607e083) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e33c2bf5e817db06650392fe7486d67e') in 0.0928563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/PokeBlendShapeAnimator.cs
-  artifactKey: Guid(78373ff495dc8234887e0cbdc7140022) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/PokeBlendShapeAnimator.cs using Guid(78373ff495dc8234887e0cbdc7140022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9e710ec1a7765910f84cb75dfa7811b') in 0.0148074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColor.asset
-  artifactKey: Guid(3ec238cb3e80e274c844d7b56f585392) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColor.asset using Guid(3ec238cb3e80e274c844d7b56f585392) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '787064b813e8ebe1fed904894f215d4c') in 0.0191095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ObjectResetPlane.cs
-  artifactKey: Guid(54ce4268a4182384da360e6e2654d3a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Scripts/ObjectResetPlane.cs using Guid(54ce4268a4182384da360e6e2654d3a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5a546cb1733c1632d66cdcc41c7ddf2') in 0.016589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/VRTemplateAssets/Sprites/Icons/Scroll Left.png
-  artifactKey: Guid(3708b1d8e45366b489c18df71670cecd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Sprites/Icons/Scroll Left.png using Guid(3708b1d8e45366b489c18df71670cecd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7be07be4893453e26c03370b3422df37') in 0.0289576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif
-  artifactKey: Guid(f3fb518ec70eb4047b1c6ec34933fbce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif using Guid(f3fb518ec70eb4047b1c6ec34933fbce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac193eab0c56b579deae60a2797997fc') in 0.0228986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
-  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4aacdefae510f3ac780469bcb5f659cc') in 0.1669323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser-Long.prefab
-  artifactKey: Guid(fe7fcf44eedd467489de26ce92577bc3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser-Long.prefab using Guid(fe7fcf44eedd467489de26ce92577bc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17cbdca02fbacf2b7f8a6bdac59b4e6b') in 0.0654286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs
-  artifactKey: Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs using Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d45d4bbecbe42eed4456bc3d28cdb91') in 0.0166858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab
-  artifactKey: Guid(1392f805216c47742996d4742c80721c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab using Guid(1392f805216c47742996d4742c80721c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31b53d4217c94b334ead2301e143c220') in 0.0433869 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
-  artifactKey: Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd48dd18855f378c0eb15081104c5a98b') in 0.0427918 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab
-  artifactKey: Guid(870459f1cb8d7b7428337cc5935feb67) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab using Guid(870459f1cb8d7b7428337cc5935feb67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7cf4408c01ba455c68cc31921934693') in 0.0993338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab
-  artifactKey: Guid(037ba65d346be2a48ad006b9a9a3873e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab using Guid(037ba65d346be2a48ad006b9a9a3873e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3736ffcea7f3374deab9df671957b05') in 0.0528039 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab
-  artifactKey: Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab using Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e0a8a13585ce58a157116f152e7449') in 0.0577587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab
-  artifactKey: Guid(c1800acf6366418a9b5f610249000331) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab using Guid(c1800acf6366418a9b5f610249000331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '422ee5bb1767d95cea706e9559ee4049') in 0.0681186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser.prefab
-  artifactKey: Guid(3549fdaf258e11846b85a316c16c699c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Blaser.prefab using Guid(3549fdaf258e11846b85a316c16c699c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '419a6b2c982c7284519b05479177cf44') in 0.0426293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab
-  artifactKey: Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab using Guid(2fd3e07afe5b461490fb8e314976b1b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da5fe40fc20773d7140b248b8b26099c') in 0.0733029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif
-  artifactKey: Guid(cdebec39dbf81a14688e1de8d12897b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoSceneAssets/Textures/Concrete_Normal.tif using Guid(cdebec39dbf81a14688e1de8d12897b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8e449999ea4f4c9e35be5a76397bf23') in 0.0193879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/UI/ButtonHandMenu.prefab
-  artifactKey: Guid(e2698219e3231e94c8765d49b9dd5cff) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/UI/ButtonHandMenu.prefab using Guid(e2698219e3231e94c8765d49b9dd5cff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8786614506a108e4dc54eff71c10d768') in 0.058567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
-  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2cde9cdbec94698f7ca6728cc73d600') in 0.0222172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/VRTemplateAssets/Prefabs/Affordance/Affordance Callout.prefab
-  artifactKey: Guid(048249d9a15aa3c459399751e860bde7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Prefabs/Affordance/Affordance Callout.prefab using Guid(048249d9a15aa3c459399751e860bde7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55e9e45a1a631633ee3eb2d20de1595b') in 0.0527277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/VRTemplateAssets/Materials/Environment/Grey.mat
-  artifactKey: Guid(e1b4debff657aa94293a2e4e5f15b8a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Materials/Environment/Grey.mat using Guid(e1b4debff657aa94293a2e4e5f15b8a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b5409483b803728f346cde26d38710b') in 0.0362292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionTexture.png
-  artifactKey: Guid(325bac5adcc39b044b58a1cc8c02ef0f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Materials/Locomotion/BlinkOcclusionTexture.png using Guid(325bac5adcc39b044b58a1cc8c02ef0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a904116947d2c54573fb835a0c235d56') in 0.0229839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Outline.png
-  artifactKey: Guid(58bc8d49e10d1bc40813d8974b8b3a5c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Sprites/UI/Round Radius 10 Outline.png using Guid(58bc8d49e10d1bc40813d8974b8b3a5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '008db1c4fb2192a3a7f41c934d310683') in 0.0256953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72e019b6a6c52523979cf7c872ac1431') in 0.0165032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/VRTemplateAssets/Materials/Primitive/torus_Height.png
-  artifactKey: Guid(c8e3e9c3524648a47b779e016a93f0f0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/VRTemplateAssets/Materials/Primitive/torus_Height.png using Guid(c8e3e9c3524648a47b779e016a93f0f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77db706aca18d85f298f4f83aed695bc') in 0.0237295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/PokeButton.prefab
-  artifactKey: Guid(d661f645c81f29b4aa596207971ae441) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/HandsDemoSceneAssets/Prefabs/PokeButton.prefab using Guid(d661f645c81f29b4aa596207971ae441) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c38ae959346c5078736ffc17dc035e5') in 0.0626023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/AffordanceThemes/HighlightInteractionColor.asset
-  artifactKey: Guid(8b0b5aede76faac438e02d2a468f4805) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/AffordanceThemes/HighlightInteractionColor.asset using Guid(8b0b5aede76faac438e02d2a468f4805) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a905d932e3a76e3b355ec2e79eb8a6fe') in 0.0182822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1100683b7f29594e27ee1a856febc33a') in 0.048488 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.348685 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '403b9cc59e0ce9e82e53ce02c9102d30') in 0.0012567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.561711 seconds.
-  path: Assets/Scenes/BasicScene.unity
-  artifactKey: Guid(4e9fef26e6adb88479ad1b9834a32d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BasicScene.unity using Guid(4e9fef26e6adb88479ad1b9834a32d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbdb7ef05629d5442e097129921e825f') in 0.0006532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.522829 seconds.
-  path: Assets/Scenes/Castle.unity
-  artifactKey: Guid(806a2032999d1614da3288b8834451f9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/Castle.unity using Guid(806a2032999d1614da3288b8834451f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b7da6c9490940bfc3f859bb101997b9') in 0.0130509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.125776 seconds.
-  path: Assets/Scenes/Castle.unity
-  artifactKey: Guid(806a2032999d1614da3288b8834451f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Castle.unity using Guid(806a2032999d1614da3288b8834451f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fb1310ef494aca11c82fc13811a8e92') in 0.0007965 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.848160 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0008101 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.189655 seconds.
-  path: Assets/Models
-  artifactKey: Guid(852f7adf48dadbf499915b73e4fe3615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(852f7adf48dadbf499915b73e4fe3615) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5a570e5668343623db212e43b62c215') in 0.0006481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.926047 seconds.
-  path: Assets/Models
-  artifactKey: Guid(852f7adf48dadbf499915b73e4fe3615) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models using Guid(852f7adf48dadbf499915b73e4fe3615) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5c2e7551f3bc88ee18692a5c278c164') in 0.0173406 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.306609 seconds.
-  path: Assets/Models/Houses_SecondAge_1_Level3.fbx
-  artifactKey: Guid(087141c2cae84c14099e31d03fbf6d37) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_SecondAge_1_Level3.fbx using Guid(087141c2cae84c14099e31d03fbf6d37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c2487a6efbbbca35d43b57c96e65fe8') in 0.0360736 seconds
+  Time since last request: 0.133619 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/OBJ/Alien.obj
+  artifactKey: Guid(efe6f73ec530aed4fb1877824aefc6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/OBJ/Alien.obj using Guid(efe6f73ec530aed4fb1877824aefc6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eecd3d68f14521df584e9612e182ec80') in 0.5835615 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/Farm_FirstAge_Level1.fbx
-  artifactKey: Guid(472947f88922bc549ba07d1d220ceb5a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_FirstAge_Level1.fbx using Guid(472947f88922bc549ba07d1d220ceb5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '819577327d719d3fc1204118f3f9956f') in 0.0247019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 17.683671 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/OBJ/Birb.obj
+  artifactKey: Guid(d5f8929601bf19c42b0b9821da5f4119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/OBJ/Birb.obj using Guid(d5f8929601bf19c42b0b9821da5f4119) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d7d51ecc5275aeff258161e7fdd7a00') in 0.0358111 seconds
+Number of updated asset objects reloaded before import = 74Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.339236 seconds.
+  path: Assets/Models/Ultimate Monsters/Big/FBX/Alien.fbx
+  artifactKey: Guid(3b15fdb4659a4c445b404597c46ee80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Big/FBX/Alien.fbx using Guid(3b15fdb4659a4c445b404597c46ee80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88877f30530eb9fb44f2334793be1c71') in 0.0900935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Models/Wall_FirstAge.fbx
-  artifactKey: Guid(8cbe7115ea271024395ae4bf9c66087b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Wall_FirstAge.fbx using Guid(8cbe7115ea271024395ae4bf9c66087b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '202359ad30b0bf0bdaf6bf4210ee9ab5') in 0.030304 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  path: Assets/Models/Ultimate Monsters/Big/FBX/MushroomKing.fbx
+  artifactKey: Guid(2167360fde225d84a86b263870983022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Big/FBX/MushroomKing.fbx using Guid(2167360fde225d84a86b263870983022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23cd99b4c6601a3a57d9f5e886650df4') in 0.0737574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Models/Crate_Stack2.fbx
-  artifactKey: Guid(4ec4447a37c59664dbd441c042717bd7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Crate_Stack2.fbx using Guid(4ec4447a37c59664dbd441c042717bd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82428d12dd7f46d74c2a2cf480bc3e3f') in 0.0418565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  path: Assets/Models/Ultimate Monsters/Big/FBX/Monkroose.fbx
+  artifactKey: Guid(bb0d391c96c645d4088552c1a42c628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Big/FBX/Monkroose.fbx using Guid(bb0d391c96c645d4088552c1a42c628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '386beb2d83a7d857f6c52657aff9e123') in 0.0522802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Farm_Dirt_Level3.fbx
-  artifactKey: Guid(24815522a6e2a2b46979107599c4a08f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_Dirt_Level3.fbx using Guid(24815522a6e2a2b46979107599c4a08f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ac255e2c5f13d1f248e4d3793e93047') in 0.0372763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 6.681939 seconds.
+  path: Assets/Models/Ultimate Monsters/Big/FBX/Ninja.fbx
+  artifactKey: Guid(2a1fef16442e3f344b88508ea5dcdd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Big/FBX/Ninja.fbx using Guid(2a1fef16442e3f344b88508ea5dcdd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70414555c783524985e1adeb2a1f9281') in 0.0483315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Houses_SecondAge_2_Level2.fbx
-  artifactKey: Guid(31355e43142b80d47bd0e9282b571f0b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_SecondAge_2_Level2.fbx using Guid(31355e43142b80d47bd0e9282b571f0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42c95617c053a1810166bac079f8606e') in 0.0285883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 14.703460 seconds.
+  path: Assets/Materials/Atlas.mat
+  artifactKey: Guid(f0e9ab5a7edcc6c4da2ac365229436f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Atlas.mat using Guid(f0e9ab5a7edcc6c4da2ac365229436f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9e4b3bee8b8c6cf2b70570e77fb6b72') in 0.0337245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Houses_SecondAge_1_Level2.fbx
-  artifactKey: Guid(d891c61a74c43ad468af92c0091cb507) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_SecondAge_1_Level2.fbx using Guid(d891c61a74c43ad468af92c0091cb507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '161e2f8b2d8cae278ccfe84a807abe15') in 0.0383844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/Storage_SecondAge_Level2.fbx
-  artifactKey: Guid(3e7845d572575ed46927a6000ff562b1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Storage_SecondAge_Level2.fbx using Guid(3e7845d572575ed46927a6000ff562b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40ed8258277275749f79adadb5ebfde3') in 0.032412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Models/Houses_SecondAge_2_Level3.fbx
-  artifactKey: Guid(76836539314779241a6ee9ee6f42517d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_SecondAge_2_Level3.fbx using Guid(76836539314779241a6ee9ee6f42517d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88ee6b95b56de39f7909dcacfb2705b6') in 0.0372571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Farm_FirstAge_Level2.fbx
-  artifactKey: Guid(4705b7638667bf347a2da3eaa6ca9476) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_FirstAge_Level2.fbx using Guid(4705b7638667bf347a2da3eaa6ca9476) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd3e9a16bf25c9cd6c7ce9aa02583fbd') in 0.0216114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Resource_PineTree_Group_Cut.fbx
-  artifactKey: Guid(9bf7e82f6803e6645b25417a4548c557) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Resource_PineTree_Group_Cut.fbx using Guid(9bf7e82f6803e6645b25417a4548c557) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfb408e07eca791a6b98177c88bfdd8d') in 0.0275712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Barracks_FirstAge_Level2.fbx
-  artifactKey: Guid(b175bbe9268041a469d890ebc6d59d91) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Barracks_FirstAge_Level2.fbx using Guid(b175bbe9268041a469d890ebc6d59d91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3360ab159fd47f5b1e4e9dea4848c8d6') in 0.0353801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/Market_SecondAge_Level2.fbx
-  artifactKey: Guid(49b153a5badd88f44921129eea218684) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Market_SecondAge_Level2.fbx using Guid(49b153a5badd88f44921129eea218684) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'caa78549a4c586b1b3a5ecc66cc48b30') in 0.0354015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Models/Farm_FirstAge_Level2_Wheat.fbx
-  artifactKey: Guid(d2fdd82b16e2c2b4a9490a3b44e09cfb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_FirstAge_Level2_Wheat.fbx using Guid(d2fdd82b16e2c2b4a9490a3b44e09cfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b28133450d0fe9b5152f0dc0030ec14a') in 0.0320165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Mountain_Single.fbx
-  artifactKey: Guid(ecebb429573db1349b6bbbbc25c9228e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Mountain_Single.fbx using Guid(ecebb429573db1349b6bbbbc25c9228e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1b4d89c69a26410e1d336cd9976ed7a') in 0.0305216 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/Dock_FirstAge.fbx
-  artifactKey: Guid(d4bbcf0877c417846b7183b63a2cc835) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Dock_FirstAge.fbx using Guid(d4bbcf0877c417846b7183b63a2cc835) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bba1a33bfcaa79609daf343a7e4b685') in 0.0288382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Archery_FirstAge_Level2.fbx
-  artifactKey: Guid(fd2b73c20e01435418baced7ccada7ba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Archery_FirstAge_Level2.fbx using Guid(fd2b73c20e01435418baced7ccada7ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fd06e3eb81f579cbbb5d6c97887bf3f') in 0.0405372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Models/TownCenter_FirstAge_Level1.fbx
-  artifactKey: Guid(3a2cd846ce973404c9201b8854665bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/TownCenter_FirstAge_Level1.fbx using Guid(3a2cd846ce973404c9201b8854665bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c809bb6abc6301e540f7912ded7fdf47') in 0.0266256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/WallTowers_SecondAge.fbx
-  artifactKey: Guid(5d2691322c30f16419c5ab4b7ead454a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/WallTowers_SecondAge.fbx using Guid(5d2691322c30f16419c5ab4b7ead454a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a57bf671f32781bcbceccd01f879032e') in 0.0315611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Resource_PineTree.fbx
-  artifactKey: Guid(9406f2889ddd85749b77c497725b9b46) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Resource_PineTree.fbx using Guid(9406f2889ddd85749b77c497725b9b46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6ae9eecc53aeb2950d1f6670c4388d0') in 0.0336287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Houses_FirstAge_2_Level3.fbx
-  artifactKey: Guid(903b393a90e09bf49a2019fe13459cce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_FirstAge_2_Level3.fbx using Guid(903b393a90e09bf49a2019fe13459cce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f7a7b9b88a24ae9081368c9b658b413') in 0.0261548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/Barracks_FirstAge_Level1.fbx
-  artifactKey: Guid(52274b90fa7d3c041bced90310a99d72) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Barracks_FirstAge_Level1.fbx using Guid(52274b90fa7d3c041bced90310a99d72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '723a2b04f4fc87f5d0228f8b59e1d8b0') in 0.0372843 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Models/Wonder_FirstAge_Level1.fbx
-  artifactKey: Guid(da3a74c98292e4547b5b050183046343) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Wonder_FirstAge_Level1.fbx using Guid(da3a74c98292e4547b5b050183046343) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44113718daf48bad2d6aed4878a3be4c') in 0.0359969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 65.481981 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/Alien.fbx
+  artifactKey: Guid(d0b3c747913a4714f84284c055ebc9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Alien.fbx using Guid(d0b3c747913a4714f84284c055ebc9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fdf366461dd0ad3e7584740d13be46b') in 0.0672713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
-  path: Assets/Models/WallTowers_DoorClosed_SecondAge.fbx
-  artifactKey: Guid(a96b61cd1c3e6584eb09154dd9aa9db2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/WallTowers_DoorClosed_SecondAge.fbx using Guid(a96b61cd1c3e6584eb09154dd9aa9db2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e05b5936336d06890b5e859d323f9382') in 0.0394003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/TowerHouse_FirstAge.fbx
-  artifactKey: Guid(63ecb6740ba037d4d8b436ed5a6d7e59) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/TowerHouse_FirstAge.fbx using Guid(63ecb6740ba037d4d8b436ed5a6d7e59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6bdb1be501b3d328e9e3d418200881f') in 0.0390512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/Wonder_FirstAge_Level2.fbx
-  artifactKey: Guid(25be2450c799e6a48b372e93b1d037b4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Wonder_FirstAge_Level2.fbx using Guid(25be2450c799e6a48b372e93b1d037b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b0d658ac051bf76a09c4354484b16fa') in 0.0316302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Models/Barracks_SecondAge_Level3.fbx
-  artifactKey: Guid(424c510f917958e49b84d58d4335c62f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Barracks_SecondAge_Level3.fbx using Guid(424c510f917958e49b84d58d4335c62f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7f6f7b2da2bda8cd875e03ae22a1568') in 0.0364484 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Models/Farm_Dirt_Level1.fbx
-  artifactKey: Guid(f0841ca14b3f7a94fb2c3bbdd2449931) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_Dirt_Level1.fbx using Guid(f0841ca14b3f7a94fb2c3bbdd2449931) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa2737134340629b764bfa2519820e2f') in 0.0269005 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/Storage_FirstAge_Level1.fbx
-  artifactKey: Guid(cd15553970469db43b54fc280cc41957) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Storage_FirstAge_Level1.fbx using Guid(cd15553970469db43b54fc280cc41957) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a07cae15feb3ecd0e29e1e30b602c95b') in 0.0366256 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/Market_SecondAge_Level1.fbx
-  artifactKey: Guid(d60547afac24324459da00d1af766ee2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Market_SecondAge_Level1.fbx using Guid(d60547afac24324459da00d1af766ee2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c138ea9085f36c41b98960c4f9d9d307') in 0.0375305 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models/Barracks_SecondAge_Level2.fbx
-  artifactKey: Guid(9b86720d5ef5c894daa394bc972620b7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Barracks_SecondAge_Level2.fbx using Guid(9b86720d5ef5c894daa394bc972620b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7263e9ee476e1ace87b52f08d78310d2') in 0.040601 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Models/WallTowers_DoorClosed_FirstAge.fbx
-  artifactKey: Guid(23501a6e6a01d124baa09de5c5485612) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/WallTowers_DoorClosed_FirstAge.fbx using Guid(23501a6e6a01d124baa09de5c5485612) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fd2c3c6e35fd6dc432db3ce0f293b2b') in 0.0334825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Models/Farm_SecondAge_Level2_Wheat.fbx
-  artifactKey: Guid(ab0bfd0825d469d4ba7fd577da82329a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_SecondAge_Level2_Wheat.fbx using Guid(ab0bfd0825d469d4ba7fd577da82329a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18147523cf9386479142a5719e47a126') in 0.0377417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/Temple_FirstAge_Level1.fbx
-  artifactKey: Guid(08838fc9911f1a549b7ccf9807aea915) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Temple_FirstAge_Level1.fbx using Guid(08838fc9911f1a549b7ccf9807aea915) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '083aad5ba6b6397079cedadf96fab0f4') in 0.0271837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models/Houses_SecondAge_3_Level3.fbx
-  artifactKey: Guid(bfb5b02d4dab790418772bfbac3b86a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_SecondAge_3_Level3.fbx using Guid(bfb5b02d4dab790418772bfbac3b86a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07dba18bbd0e2bc49bca70ae64643906') in 0.0346548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/Farm_SecondAge_Level2.fbx
-  artifactKey: Guid(3371d8096f2e41e4c9e4cd15afa2e801) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_SecondAge_Level2.fbx using Guid(3371d8096f2e41e4c9e4cd15afa2e801) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'baf02169064c5d7df385012ec9ad52e6') in 0.059121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Models/Houses_FirstAge_3_Level3.fbx
-  artifactKey: Guid(9c5ff3bc84ad46e4188a88e2a0deed6f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_FirstAge_3_Level3.fbx using Guid(9c5ff3bc84ad46e4188a88e2a0deed6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b180bbe3e72abd950e185ae4e7a34c32') in 0.0330763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Models/Resource_Tree_Group_Cut.fbx
-  artifactKey: Guid(b0f9ffcf42236514da51765fb9d0f14f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Resource_Tree_Group_Cut.fbx using Guid(b0f9ffcf42236514da51765fb9d0f14f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66500c2cf330d26aeaf490e6d7871539') in 0.0267502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Farm_SecondAge_Level1.fbx
-  artifactKey: Guid(78d44eb68a1b94544af480ab3eac49d3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_SecondAge_Level1.fbx using Guid(78d44eb68a1b94544af480ab3eac49d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a95bebcfb3095f985c21987cb6e43e8') in 0.0339465 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Farm_FirstAge_Level1_Wheat.fbx
-  artifactKey: Guid(efd3dce3876d2934fbde74ab173edb48) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_FirstAge_Level1_Wheat.fbx using Guid(efd3dce3876d2934fbde74ab173edb48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f64e18b71acee27cface1d804ad47279') in 0.0239742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Farm_SecondAge_Level1_Wheat.fbx
-  artifactKey: Guid(3dddb4180ef55de4ba664083b8d73323) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Farm_SecondAge_Level1_Wheat.fbx using Guid(3dddb4180ef55de4ba664083b8d73323) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '091bb1e4059cbe05cec1e4d565715765') in 0.0260829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/WallTowers_FirstAge.fbx
-  artifactKey: Guid(b9f83bdd6a05fe141894438d962fe1b3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/WallTowers_FirstAge.fbx using Guid(b9f83bdd6a05fe141894438d962fe1b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c275fc16a8cb8e880d37d3435591c2a0') in 0.0255096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Models/TownCenter_SecondAge_Level3.fbx
-  artifactKey: Guid(ac4aadc2aec2c8c4f9fdcf029e66eea8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/TownCenter_SecondAge_Level3.fbx using Guid(ac4aadc2aec2c8c4f9fdcf029e66eea8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '751174e247911c8f2062d98ca1623419') in 0.0336908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/WallTowers_Door_SecondAge.fbx
-  artifactKey: Guid(55714e477f9a7db479ecccd828389a75) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/WallTowers_Door_SecondAge.fbx using Guid(55714e477f9a7db479ecccd828389a75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e001deb2b26c9f00ed9d1ef70936b65') in 0.0331266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Models/Market_FirstAge_Level3.fbx
-  artifactKey: Guid(44944322766e15a42848266a0700c100) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Market_FirstAge_Level3.fbx using Guid(44944322766e15a42848266a0700c100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3fbf623e70f381ca5f5c5133e43c326') in 0.0331839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Logs.fbx
-  artifactKey: Guid(340525cc245001d4b9a4438355c65b76) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Logs.fbx using Guid(340525cc245001d4b9a4438355c65b76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55c625cc1f18c31a053f9701bb4c8305') in 0.0273446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/Houses_SecondAge_3_Level2.fbx
-  artifactKey: Guid(a1f77a309af8eec49875a3ce4bcd494d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_SecondAge_3_Level2.fbx using Guid(a1f77a309af8eec49875a3ce4bcd494d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bdf37c15d06902654ba80c5493a1c56') in 0.0333929 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Models/Barrel.fbx
-  artifactKey: Guid(10cdecfd629c9bb40a7da0e1d7d3dd27) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Barrel.fbx using Guid(10cdecfd629c9bb40a7da0e1d7d3dd27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1adc5359534b16f747aac5cd63110081') in 0.0328834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Mine.fbx
-  artifactKey: Guid(ee9e182463987804781c04ee9aa67970) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Mine.fbx using Guid(ee9e182463987804781c04ee9aa67970) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44fd494a4a7209c409b2001860602bc4') in 0.0277954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/Port_SecondAge_Level1.fbx
-  artifactKey: Guid(df620d164a44dfc46aa4ed78cd6144e1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Port_SecondAge_Level1.fbx using Guid(df620d164a44dfc46aa4ed78cd6144e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71e2f9484c15259d3ab4f153a87a8f2e') in 0.0389807 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Market_SecondAge_Level3.fbx
-  artifactKey: Guid(1ae517ac1bdad50448f4e70e1c39824a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Market_SecondAge_Level3.fbx using Guid(1ae517ac1bdad50448f4e70e1c39824a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '291721270985ece7db5b1f5846fc9b1d') in 0.0496274 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Models/WonderWalls_FirstAge.fbx
-  artifactKey: Guid(aa4d333d12e47bf40b1d70022f561afd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/WonderWalls_FirstAge.fbx using Guid(aa4d333d12e47bf40b1d70022f561afd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05864746b8876d145a7bf797e6038314') in 0.0442682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Models/Storage_FirstAge_Level2.fbx
-  artifactKey: Guid(3ec8e2d4045932549b0d25d7522c704d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Storage_FirstAge_Level2.fbx using Guid(3ec8e2d4045932549b0d25d7522c704d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78db91da1133c3517f03316f5fe5e3ae') in 0.036848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Models/Port_FirstAge_Level2.fbx
-  artifactKey: Guid(fc6c18b349a4b1b41bcadb2036efa3a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Port_FirstAge_Level2.fbx using Guid(fc6c18b349a4b1b41bcadb2036efa3a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d6233c41fd9dd6dc76dda78ca2cad9e') in 0.0264557 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Resource_Rock_1.fbx
-  artifactKey: Guid(596e1860fb845344e8b2bf2c8aacbaef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Resource_Rock_1.fbx using Guid(596e1860fb845344e8b2bf2c8aacbaef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f1f38ff8c00bb6ac8d0ad6c3c53deea') in 0.027328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Models/Mountain_Group_2.fbx
-  artifactKey: Guid(a1b7ea714217cd641989e60b9097b612) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Mountain_Group_2.fbx using Guid(a1b7ea714217cd641989e60b9097b612) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98a4783f33ac3834f78b32934b9c26c5') in 0.0292975 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Models/Mountain_Group_1.fbx
-  artifactKey: Guid(e518ab02d295a164ab5303e923848da4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Mountain_Group_1.fbx using Guid(e518ab02d295a164ab5303e923848da4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48b6fe217549b1a9cb0a1d3e10f05004') in 0.0349617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Models/Temple_SecondAge_Level1.fbx
-  artifactKey: Guid(e9c42d8afc28750479ca0547c8cd43cd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Temple_SecondAge_Level1.fbx using Guid(e9c42d8afc28750479ca0547c8cd43cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '785a5d240474de9044188c727e2f9768') in 0.0291685 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Port_SecondAge_Level3.fbx
-  artifactKey: Guid(3d54fdb12a736d24fafa4445a59a97dd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Port_SecondAge_Level3.fbx using Guid(3d54fdb12a736d24fafa4445a59a97dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffded54f8d4b90602970f610624963a1') in 0.0451767 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Houses_FirstAge_1_Level2.fbx
-  artifactKey: Guid(f52d5a18e7dc938469cd26c9bc10db6e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_FirstAge_1_Level2.fbx using Guid(f52d5a18e7dc938469cd26c9bc10db6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93ad67bb6367580ebf3c755c1ee2a182') in 0.0278829 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Models/Houses_FirstAge_3_Level1.fbx
-  artifactKey: Guid(b608854913ab1fb408d9cae3b50ce3d6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Houses_FirstAge_3_Level1.fbx using Guid(b608854913ab1fb408d9cae3b50ce3d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5962db0ade845c0ca88f555cea0098a') in 0.0242621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/WatchTower_SecondAge_Level2.fbx
-  artifactKey: Guid(270dcbf7cb377a44195c44918c8642f9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/WatchTower_SecondAge_Level2.fbx using Guid(270dcbf7cb377a44195c44918c8642f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3457d22a6125af9ec68cdd38adc8b1b') in 0.0345354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Rock_Group.fbx
-  artifactKey: Guid(28426d52d044bea4596217052f8205b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Models/Rock_Group.fbx using Guid(28426d52d044bea4596217052f8205b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcbee2aaca61d7673919c67182e055b6') in 0.0444947 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.088637 seconds.
-  path: Assets/XR/Settings/OpenXRPackageSettings.asset
-  artifactKey: Guid(a9a6963505ddf7f4d886008c6dc86122) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/XR/Settings/OpenXRPackageSettings.asset using Guid(a9a6963505ddf7f4d886008c6dc86122) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a3183d54c518a48ebe5134055d4b7f8') in 0.0762272 seconds
-Number of updated asset objects reloaded before import = 70Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.993 seconds
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoader.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.xr.openxr/Runtime/OpenXRLoaderInternal.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 9.13 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in C:\Users\NuiLabR10\Documents\Git\ArchVRy\ArchVRy\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
-   --- End of inner exception stack trace ---
-  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
-  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <4e9c48eedf6f482fa439ccf335631481>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.151 seconds
-Domain Reload Profiling: 2142ms
-	BeginReloadAssembly (308ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (119ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (589ms)
-		LoadAssemblies (457ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (224ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1152ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (892ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (618ms)
-			ProcessInitializeOnLoadMethodAttributes (132ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 14.53 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5620 unused Assets / (10.0 MB). Loaded Objects now: 6196.
-Memory consumption went from 186.0 MB to 176.0 MB.
-Total: 23.377500 ms (FindLiveObjects: 1.425100 ms CreateObjectMapping: 1.478200 ms MarkObjects: 10.232700 ms  DeleteObjects: 10.237100 ms)
-
-Prepare: number of updated asset objects reloaded= 71
-========================================================================
-Received Import Request.
-  Time since last request: 31.731681 seconds.
-  path: Assets/Models/TownCenter_FirstAge_Level1.fbx
-  artifactKey: Guid(3a2cd846ce973404c9201b8854665bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TownCenter_FirstAge_Level1.fbx using Guid(3a2cd846ce973404c9201b8854665bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b79ff52db04febad3d28c0351920545c') in 0.7474687 seconds
-Number of updated asset objects reloaded before import = 73Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.385991 seconds.
-  path: Assets/Models/TownCenter_FirstAge_Level2.fbx
-  artifactKey: Guid(1535f034cc2af354cbc575780d3cda3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TownCenter_FirstAge_Level2.fbx using Guid(1535f034cc2af354cbc575780d3cda3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '397e3710d1edb3d5a6a30b71028bdc0a') in 0.0525942 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.674857 seconds.
-  path: Assets/Models/TowerHouse_SecondAge.fbx
-  artifactKey: Guid(10a79e6c34e1b7e478ac76bb1b7396ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TowerHouse_SecondAge.fbx using Guid(10a79e6c34e1b7e478ac76bb1b7396ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c13a1b499d2ecfe66d06efdf8b43174') in 0.0631185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.336941 seconds.
-  path: Assets/Models/TowerHouse_FirstAge.fbx
-  artifactKey: Guid(63ecb6740ba037d4d8b436ed5a6d7e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/TowerHouse_FirstAge.fbx using Guid(63ecb6740ba037d4d8b436ed5a6d7e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b61dc2ed6bf81c60d09632f4aa529a4') in 0.052207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.803012 seconds.
-  path: Assets/Models/Archery_SecondAge_Level3.fbx
-  artifactKey: Guid(f557028ee0b87334baf10b9452f76fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Archery_SecondAge_Level3.fbx using Guid(f557028ee0b87334baf10b9452f76fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f882efc6604a3bb641077be6b2e90a') in 0.0883616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.115713 seconds.
-  path: Assets/Models/Barrel.fbx
-  artifactKey: Guid(10cdecfd629c9bb40a7da0e1d7d3dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Barrel.fbx using Guid(10cdecfd629c9bb40a7da0e1d7d3dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b84b6ae6530a374dfbdbf865871ef5e') in 0.0381212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.625660 seconds.
-  path: Assets/Models/Assets
-  artifactKey: Guid(b95e72dc5b7081b498b57bd4ba8088f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets using Guid(b95e72dc5b7081b498b57bd4ba8088f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1a026ca863f808891a86ac294e17cab') in 0.0008662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.386946 seconds.
-  path: Assets/Models/Archery_FirstAge_Level1.fbx
-  artifactKey: Guid(06eff7b7fabff73488b48ffc6e771ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Archery_FirstAge_Level1.fbx using Guid(06eff7b7fabff73488b48ffc6e771ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcb0eb2aa9147f94dc34da248f8ad7d4') in 0.0589911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.229398 seconds.
-  path: Assets/Models/Environment
-  artifactKey: Guid(58bd50f71d4d18a48a50fcbcde045ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment using Guid(58bd50f71d4d18a48a50fcbcde045ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bd38d0f52322da8d6dfcc4b3e9f9cfa') in 0.0009761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.961387 seconds.
-  path: Assets/Models/Environment/Clover_1.fbx
-  artifactKey: Guid(20c0858fc10b8224b9493139a4b7b2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Clover_1.fbx using Guid(20c0858fc10b8224b9493139a4b7b2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ff9b13ddb0045b3f25abd8faa568f88') in 0.0292654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.443773 seconds.
-  path: Assets/Models/Environment/CommonTree_1.fbx
-  artifactKey: Guid(aadf0962a25d56e448565afaee67e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/CommonTree_1.fbx using Guid(aadf0962a25d56e448565afaee67e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4ca72e82777030b3b3d839f9dc2fe0d') in 0.0413185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.355443 seconds.
-  path: Assets/Models/Environment/Grass_Common_Tall.fbx
-  artifactKey: Guid(5289097458f192d45a5fae9d03592b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Grass_Common_Tall.fbx using Guid(5289097458f192d45a5fae9d03592b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b87d9fdcbe049aa098b490ba6525d81') in 0.0369173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.986089 seconds.
-  path: Assets/Models/Environment/Grass_Common_Short.fbx
-  artifactKey: Guid(88a04be5cf4c7514ca632c68314fc218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Grass_Common_Short.fbx using Guid(88a04be5cf4c7514ca632c68314fc218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ef6dca04e79e08cd23c4ceba4c4c570') in 0.0352136 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.873838 seconds.
-  path: Assets/Models/Environment/DeadTree_2.fbx
-  artifactKey: Guid(41c88e5cd330ac54b9685807b7a0de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/DeadTree_2.fbx using Guid(41c88e5cd330ac54b9685807b7a0de1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08d3c08cf02408d86ddec93ff239d550') in 0.0413218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.549990 seconds.
-  path: Assets/Models/Assets/Archery_FirstAge_Level2.fbx
-  artifactKey: Guid(fd2b73c20e01435418baced7ccada7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Archery_FirstAge_Level2.fbx using Guid(fd2b73c20e01435418baced7ccada7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdfb76d23e84b883c751b86bf3522276') in 0.0743577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.163073 seconds.
-  path: Assets/Models/Environment/Bush_Common.fbx
-  artifactKey: Guid(244ed872332a08144a1ea5f3d24e5375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Bush_Common.fbx using Guid(244ed872332a08144a1ea5f3d24e5375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e633521397a91a81d4c9945de9fc20db') in 0.0327884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.330340 seconds.
-  path: Assets/Models/Environment/Bush_Common.fbx
-  artifactKey: Guid(244ed872332a08144a1ea5f3d24e5375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Bush_Common.fbx using Guid(244ed872332a08144a1ea5f3d24e5375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd887ac51aadfca7766540a09868604c') in 0.0292097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.629892 seconds.
-  path: Assets/Models/Environment/Clover_2.fbx
-  artifactKey: Guid(fd1e7dc3ade46cf468cf27e5137bac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Clover_2.fbx using Guid(fd1e7dc3ade46cf468cf27e5137bac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45e1088a3ee1bb5d98d972ecaeacd02e') in 0.0275088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.133246 seconds.
-  path: Assets/Models/Environment/Bush_Common_Flowers.fbx
-  artifactKey: Guid(9b1ca4d266fbf30498c6cce3d23f5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Bush_Common_Flowers.fbx using Guid(9b1ca4d266fbf30498c6cce3d23f5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16659015a67ab3da35b51853599d237c') in 0.0263932 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.353903 seconds.
-  path: Assets/Models/Environment/CommonTree_2.fbx
-  artifactKey: Guid(3cd06542b8282ed45a2427dfec8e3cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/CommonTree_2.fbx using Guid(3cd06542b8282ed45a2427dfec8e3cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b08886d1b83b868165b4dea63ed246') in 0.0486875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.570668 seconds.
-  path: Assets/Models/Environment/Bush_Common.fbx
-  artifactKey: Guid(244ed872332a08144a1ea5f3d24e5375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Bush_Common.fbx using Guid(244ed872332a08144a1ea5f3d24e5375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96eaa1ae594e944106963e35b21de30f') in 0.0383397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.218675 seconds.
-  path: Assets/Models/Environment/Clover_1.fbx
-  artifactKey: Guid(20c0858fc10b8224b9493139a4b7b2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Clover_1.fbx using Guid(20c0858fc10b8224b9493139a4b7b2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b509996f8097a5fc1bc7e20593d8ec64') in 0.0353178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.271861 seconds.
-  path: Assets/Models/Environment/CommonTree_3.fbx
-  artifactKey: Guid(879615d51c2848545806f9f47f46c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/CommonTree_3.fbx using Guid(879615d51c2848545806f9f47f46c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4fef03b0da69c95761f7461add79e2c') in 0.045102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.237797 seconds.
-  path: Assets/Models/Environment/DeadTree_3.fbx
-  artifactKey: Guid(86cf96e86e407f7409188e4e369565fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/DeadTree_3.fbx using Guid(86cf96e86e407f7409188e4e369565fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed26103d0ca231559f93ab2a327f4520') in 0.0432213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.305216 seconds.
-  path: Assets/Models/Environment/Flower_3_Single.fbx
-  artifactKey: Guid(e6a5641f97518a4418278ab83fca3a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Environment/Flower_3_Single.fbx using Guid(e6a5641f97518a4418278ab83fca3a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c11021bfd9d7505c21972e7b75c8e5c5') in 0.044343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.228439 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021
-  artifactKey: Guid(f79ff3d392b1d5d499fa94b35205197c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021 using Guid(f79ff3d392b1d5d499fa94b35205197c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de615a3bbdfed18709d09b50cde87660') in 0.0008446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.786204 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Character
-  artifactKey: Guid(24b2054a109a02d419159319fced3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Character using Guid(24b2054a109a02d419159319fced3bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f367bb02ec4214bdfee94eb8af3bc25') in 0.0006923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.698189 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Character/Blends
-  artifactKey: Guid(e90974a71f7586345a3554930eaffb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Character/Blends using Guid(e90974a71f7586345a3554930eaffb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20d0bc92839e00756705c1c989fc017e') in 0.0006929 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.306567 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Character/FBX
-  artifactKey: Guid(1d0b936610981234c8fff7958996fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Character/FBX using Guid(1d0b936610981234c8fff7958996fa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af2c63c7836c4656552b23831abb5ca4') in 0.0006705 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.212428 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Modular Platforms
-  artifactKey: Guid(86edad5916d451441a599b202ee636eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Modular Platforms using Guid(86edad5916d451441a599b202ee636eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c02f51945e87946f0969f5103376699') in 0.0010386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.753875 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Nature
-  artifactKey: Guid(b48e75926c65bb649a1de61d8a64ddf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Nature using Guid(b48e75926c65bb649a1de61d8a64ddf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8dfa125ca6de49ec3fd16baf0e355df') in 0.000858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.111734 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Nature/FBX
-  artifactKey: Guid(c660f67e45fc5264fba98ea291ba08c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Nature/FBX using Guid(c660f67e45fc5264fba98ea291ba08c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f24254cbdfc56ff9246109b837d169ee') in 0.0007381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.905312 seconds.
-  path: Assets/Models/Assets/WallTowers_Door_FirstAge.fbx
-  artifactKey: Guid(08beb7b6337736143972dba2efe11666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/WallTowers_Door_FirstAge.fbx using Guid(08beb7b6337736143972dba2efe11666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '041417974ef620589e14a2ba53d345bb') in 0.0471951 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.688903 seconds.
-  path: Assets/Models/Assets/WallTowers_Door_SecondAge.fbx
-  artifactKey: Guid(55714e477f9a7db479ecccd828389a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/WallTowers_Door_SecondAge.fbx using Guid(55714e477f9a7db479ecccd828389a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b6d8642f01102e282084382788c981b') in 0.0589498 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.088569 seconds.
-  path: Assets/Models/Assets/WallTowers_DoorClosed_FirstAge.fbx
-  artifactKey: Guid(23501a6e6a01d124baa09de5c5485612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/WallTowers_DoorClosed_FirstAge.fbx using Guid(23501a6e6a01d124baa09de5c5485612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63c03b719c2083372e2fbfe00a978974') in 0.0448081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.912801 seconds.
-  path: Assets/Models/Assets/WallTowers_DoorClosed_SecondAge.fbx
-  artifactKey: Guid(a96b61cd1c3e6584eb09154dd9aa9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/WallTowers_DoorClosed_SecondAge.fbx using Guid(a96b61cd1c3e6584eb09154dd9aa9db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bea7583adc43b569947b037096b304f') in 0.0591999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.473947 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Hazard_SpikeTrap.fbx
-  artifactKey: Guid(042bbc5fb064a0f4e98fa21b8365999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Hazard_SpikeTrap.fbx using Guid(042bbc5fb064a0f4e98fa21b8365999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6ea80720594cb903846239955cc2dc6') in 0.1041266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Hazard_SpikeTrap.obj
-  artifactKey: Guid(189e4ef057e75e54bac9e267af23c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Hazard_SpikeTrap.obj using Guid(189e4ef057e75e54bac9e267af23c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a50d6766629169c0902d58119f3c0111') in 0.0486928 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/VRTemplateAssets/Materials/Environment/Grid Dark Tight.mat
-  artifactKey: Guid(43672be0899539340ba6ac5db322693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Materials/Environment/Grid Dark Tight.mat using Guid(43672be0899539340ba6ac5db322693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0be8c48859d5a42f16f890e126a133ca') in 0.0254511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Scenes/BasicScene/Grid.mat
-  artifactKey: Guid(40d5f39ae0668b14f9d71f56c2981be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BasicScene/Grid.mat using Guid(40d5f39ae0668b14f9d71f56c2981be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6193e6196117fbfeaaf4002646222efa') in 0.1343478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/VRTemplateAssets/Materials/UI/Handle.mat
-  artifactKey: Guid(5d9a96601b525ff40b25403df61ff736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Materials/UI/Handle.mat using Guid(5d9a96601b525ff40b25403df61ff736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e23345dbef5ba94dceb3fbb96fb11d70') in 0.023344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Samples/XR Hands/1.5.0/HandVisualizer/Materials/HandsDefaultMaterial.mat
-  artifactKey: Guid(613690cd962241049a0ec289a6ff835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.5.0/HandVisualizer/Materials/HandsDefaultMaterial.mat using Guid(613690cd962241049a0ec289a6ff835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75e59115f04696e342909df1f61431e8') in 0.0749786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/VRTemplateAssets/Materials/Environment/Grid Dark Large.mat
-  artifactKey: Guid(8d599e4346a731a4b9b3e27a818c7047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Materials/Environment/Grid Dark Large.mat using Guid(8d599e4346a731a4b9b3e27a818c7047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91e84a28c17da208144c6d5deff5ef16') in 0.0177432 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Character/FBX/Character_Gun.fbx
-  artifactKey: Guid(1115199b56bf89940b3801b5a1aa9744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Character/FBX/Character_Gun.fbx using Guid(1115199b56bf89940b3801b5a1aa9744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2c2102ec46a94d083b99f2250ec44f9') in 0.1286009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 130
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.942778 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Enemies/FBX/Enemy.fbx
-  artifactKey: Guid(d6ac2dad612d8484bad357538b00176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Enemies/FBX/Enemy.fbx using Guid(d6ac2dad612d8484bad357538b00176c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '870b28de2a5668d8f0b28694efa6b7ef') in 0.0904391 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Models/Assets/Archery_SecondAge_Level1.fbx
-  artifactKey: Guid(3e861ed2dbb90b3429fce11123b438e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Archery_SecondAge_Level1.fbx using Guid(3e861ed2dbb90b3429fce11123b438e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c899a8c6d123cba21d6647e966addf71') in 0.0616628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
-  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '939fd49a4496c4c378b143b7286faadd') in 0.498457 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/VRTemplateAssets/Materials/Pointer/Pointer Outline.mat
-  artifactKey: Guid(94eebd9d324eddd49be6e843f56d7ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Materials/Pointer/Pointer Outline.mat using Guid(94eebd9d324eddd49be6e843f56d7ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d67be0e9f903cbe07a474eea304ad33') in 0.1003606 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Samples/XR Hands/1.5.0/HandVisualizer/Materials/TransparentRed.mat
-  artifactKey: Guid(d149182fa7aa1dc47bd32b2a6da80ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.5.0/HandVisualizer/Materials/TransparentRed.mat using Guid(d149182fa7aa1dc47bd32b2a6da80ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efc9b9627ad780a68d9bee48e876bace') in 0.0406538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Telport Area.mat
-  artifactKey: Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/Materials/Telport Area.mat using Guid(be1e10ce8a6f8cc4fb08d11c7f722469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3147da32779a7b87f8af717b543d47a') in 0.2962293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Models/Assets/Farm_SecondAge_Level3.fbx
-  artifactKey: Guid(3ba95fb456ae0ca469822768ad0abdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Farm_SecondAge_Level3.fbx using Guid(3ba95fb456ae0ca469822768ad0abdc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc9397ef90a147a3326b7f84aa4fed10') in 0.0702025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Models/Assets/Houses_FirstAge_2_Level2.fbx
-  artifactKey: Guid(7c24dfe042f2a72468e7b1baddeb719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Houses_FirstAge_2_Level2.fbx using Guid(7c24dfe042f2a72468e7b1baddeb719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a94dfca922bf5db3d2ed53ae236e6c7b') in 0.0437039 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/VRTemplateAssets/Materials/Controller/UniversalMaterialWhite.mat
-  artifactKey: Guid(9c7ab565ff2af1b4fba6ce483a124cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Materials/Controller/UniversalMaterialWhite.mat using Guid(9c7ab565ff2af1b4fba6ce483a124cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53bee2d7852e32a9f7e4a81832a2c917') in 0.1344635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/Assets/Houses_SecondAge_3_Level1.fbx
-  artifactKey: Guid(17c3841d747b92e43aa3b2705e03e368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Houses_SecondAge_3_Level1.fbx using Guid(17c3841d747b92e43aa3b2705e03e368) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cdfcf5f702232436dbe9bf44042b418') in 0.0547599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Models/Assets/Wonder_FirstAge_Level3.fbx
-  artifactKey: Guid(42fa253f9169a6d4fb3d6054a22f0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Wonder_FirstAge_Level3.fbx using Guid(42fa253f9169a6d4fb3d6054a22f0a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6242f6a0887383fa0850084464f110c5') in 0.0450845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/Assets/Wall_SecondAge.fbx
-  artifactKey: Guid(1bab9f682f9570b4b9bee977a6b4aa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Wall_SecondAge.fbx using Guid(1bab9f682f9570b4b9bee977a6b4aa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bea52dc32c41a0a73d853dc4eb8416ee') in 0.0506447 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Models/Assets/Port_SecondAge_Level3.fbx
-  artifactKey: Guid(3d54fdb12a736d24fafa4445a59a97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Port_SecondAge_Level3.fbx using Guid(3d54fdb12a736d24fafa4445a59a97dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e0822a9c1705e3b1895751caeabfc89') in 0.0720622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Unity_Hand_HDR.shadergraph
-  artifactKey: Guid(0f2e4d0d30e2b93488dce2f0124a9b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Unity_Hand_HDR.shadergraph using Guid(0f2e4d0d30e2b93488dce2f0124a9b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d64f377dbdd808e79e48c9e2df97fc5') in 0.4160865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Stairs_Modular_Middle.fbx
-  artifactKey: Guid(43082151fa3c04e4ea8e4309b028772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Stairs_Modular_Middle.fbx using Guid(43082151fa3c04e4ea8e4309b028772e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c7ce52b0b72261d8ce4434d905aa1f7') in 0.0334864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Stairs.obj
-  artifactKey: Guid(81e83e139da514043b38fcabc47c4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Stairs.obj using Guid(81e83e139da514043b38fcabc47c4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b623c1443e73a728d242f5f1891968a9') in 0.0456253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Assets/Market_SecondAge_Level3.fbx
-  artifactKey: Guid(1ae517ac1bdad50448f4e70e1c39824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Market_SecondAge_Level3.fbx using Guid(1ae517ac1bdad50448f4e70e1c39824a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc764ca4964737680479745802eed519') in 0.0779023 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Models/Assets/Port_SecondAge_Level1.fbx
-  artifactKey: Guid(df620d164a44dfc46aa4ed78cd6144e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Port_SecondAge_Level1.fbx using Guid(df620d164a44dfc46aa4ed78cd6144e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b11b171d9a9db582791bda5a5154e658') in 0.058585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Models/Assets/Houses_SecondAge_1_Level2.fbx
-  artifactKey: Guid(d891c61a74c43ad468af92c0091cb507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Houses_SecondAge_1_Level2.fbx using Guid(d891c61a74c43ad468af92c0091cb507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aa21fb803568c297d0a2933e3481d47') in 0.0601061 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Stairs.fbx
-  artifactKey: Guid(deec81ea84576c647b736cf89fd50354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Stairs.fbx using Guid(deec81ea84576c647b736cf89fd50354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea5c08b3b816c0e23d2e652474eef7f') in 0.0413104 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Pipe_Straight.obj
-  artifactKey: Guid(26d176261ecf1da4dae32c44b92d8930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Pipe_Straight.obj using Guid(26d176261ecf1da4dae32c44b92d8930) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c453a466e6d7cdad90e8c87f2b3cf24') in 0.0399077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Models/Assets/Houses_FirstAge_2_Level1.fbx
-  artifactKey: Guid(ab870619eedd7da4babc847d3330a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Houses_FirstAge_2_Level1.fbx using Guid(ab870619eedd7da4babc847d3330a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0758712ea6a586b560558771873789f7') in 0.0347623 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Pipe_End.fbx
-  artifactKey: Guid(f16136e7910a8574eb68e0764112b9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/FBX/Pipe_End.fbx using Guid(f16136e7910a8574eb68e0764112b9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5652b04fa8047527a277d08921a1fcf7') in 0.0338882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Models/Assets/Farm_Dirt_Level3.fbx
-  artifactKey: Guid(24815522a6e2a2b46979107599c4a08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Farm_Dirt_Level3.fbx using Guid(24815522a6e2a2b46979107599c4a08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df4ff8c708fc7004097753cb9dc3b290') in 0.0661501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph
-  artifactKey: Guid(bd11349dc99f3fd4083ef2f86cee9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph using Guid(bd11349dc99f3fd4083ef2f86cee9c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cfbf351d3ad6cf1f87a55fbfd3368e4') in 0.3361212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Fence_Middle.obj
-  artifactKey: Guid(1cce82aff02513f46a645a7d7aa73ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Level and Mechanics/OBJ/Fence_Middle.obj using Guid(1cce82aff02513f46a645a7d7aa73ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43bd58ae92027ff9f4b43f4c9bba31a7') in 0.0445334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/VRTemplateAssets/Models/Anchor/AnchorArrow.fbx
-  artifactKey: Guid(076cbf182a14247409a7a269d753df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Models/Anchor/AnchorArrow.fbx using Guid(076cbf182a14247409a7a269d753df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f2b1b284c809cd709da22466cf4e22d') in 0.0338911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Models/Assets/Port_FirstAge_Level2.fbx
-  artifactKey: Guid(fc6c18b349a4b1b41bcadb2036efa3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Port_FirstAge_Level2.fbx using Guid(fc6c18b349a4b1b41bcadb2036efa3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17e498a0a54bafa0642a5496df0235ef') in 0.0546262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Models/Assets/Windmill_SecondAge.fbx
-  artifactKey: Guid(253a4327f3cfae24c97e251e18324c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Windmill_SecondAge.fbx using Guid(253a4327f3cfae24c97e251e18324c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f82f52df5976c12399dbd7953662d6f3') in 0.0682572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph
-  artifactKey: Guid(89a6790c28795dd4987bb267c3d05338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.0.7/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph using Guid(89a6790c28795dd4987bb267c3d05338) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98156477cf97bb6e39c19816c616d124') in 0.2525912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Models/Assets/Houses_SecondAge_1_Level3.fbx
-  artifactKey: Guid(087141c2cae84c14099e31d03fbf6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Assets/Houses_SecondAge_1_Level3.fbx using Guid(087141c2cae84c14099e31d03fbf6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29fbef5396fe98bd4393540c1f3bd744') in 0.0606864 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/VRTemplateAssets/Models/Marks/Marks.fbx
-  artifactKey: Guid(47f3b271b50f14d4fbc351a0104e9d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Models/Marks/Marks.fbx using Guid(47f3b271b50f14d4fbc351a0104e9d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0c8a5c603681cb7dd597ebe2f291760') in 0.5271559 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 210
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.133042 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(55daccc09a3b69647bbab145b54a3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '933a131556426ca396a9bce5e68f0b74') in 0.0015645 seconds
-Number of updated asset objects reloaded before import = 73Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.970688 seconds.
-  path: Assets/Scenes/Castle.unity
-  artifactKey: Guid(806a2032999d1614da3288b8834451f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Castle.unity using Guid(806a2032999d1614da3288b8834451f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '067a632d1c8ce3bea76ac005c06ba0e3') in 0.000748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.706850 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Enemies
-  artifactKey: Guid(2cbddc4d05b89c849a3a48143d94614b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Enemies using Guid(2cbddc4d05b89c849a3a48143d94614b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79e36c4f16a91f81400c3e58ce645ca5') in 0.0007954 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.906592 seconds.
-  path: Assets/Models/Ultimate Platformer Pack - Dec 2021/Enemies/FBX
-  artifactKey: Guid(c14965434c915144d88a7403482f9601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Platformer Pack - Dec 2021/Enemies/FBX using Guid(c14965434c915144d88a7403482f9601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2b8d084aeb68e89cbc7ce1c5b637a0a') in 0.0006903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.400706 seconds.
-  path: Assets/Models/Ultimate Monsters
-  artifactKey: Guid(db4eec392d14783458422c8599142964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters using Guid(db4eec392d14783458422c8599142964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85832625facf839bbb05948e10328ac0') in 0.0007952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.862907 seconds.
-  path: Assets/Models/Ultimate Monsters/Blob
-  artifactKey: Guid(09725ef80c560a4429f4512a76c31318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Blob using Guid(09725ef80c560a4429f4512a76c31318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3af1a787290912a53040ba8ebb5c82c1') in 0.0006717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.961541 seconds.
-  path: Assets/Models/Ultimate Monsters/Blob/FBX
-  artifactKey: Guid(d2ca0ca7820501b41a2552d429dee9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Blob/FBX using Guid(d2ca0ca7820501b41a2552d429dee9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b0bfc66a38c222e85e7f15e538bc291') in 0.0006739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 162.223520 seconds.
-  path: Assets/Models/Ultimate Monsters/Blob/FBX/Cactoro.fbx
-  artifactKey: Guid(b44b980c5f4d7aa4ca234b1ba8195e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Cactoro.fbx using Guid(b44b980c5f4d7aa4ca234b1ba8195e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c20f786204993490b74440179b1fae2a') in 0.0585753 seconds
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/GreenSpikyBlob.fbx
+  artifactKey: Guid(55fe606a29511594fb8f6ef0e2f0c7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/GreenSpikyBlob.fbx using Guid(55fe606a29511594fb8f6ef0e2f0c7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2f6cccac17312ef5395cf760dd42e6b') in 0.0655265 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.214564 seconds.
-  path: Assets/Models/Ultimate Monsters/Blob/FBX/Cat.fbx
-  artifactKey: Guid(d343ab5e3f48a9a4ebd33aa0250e444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Cat.fbx using Guid(d343ab5e3f48a9a4ebd33aa0250e444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7fd0949766edb181ce4b3af0ec75ac') in 0.0502452 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/Pigeon.fbx
+  artifactKey: Guid(afc4114a971370e41963aee5b537fe26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Pigeon.fbx using Guid(afc4114a971370e41963aee5b537fe26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '124a4a52baf2ed371d4a6b1b8987d0f7') in 0.0412896 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.025238 seconds.
-  path: Assets/Models/Ultimate Monsters/Big
-  artifactKey: Guid(ed9e5965601563844a63e3a382401037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Big using Guid(ed9e5965601563844a63e3a382401037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2db2f05967b73353a091ad8009c18b32') in 0.0008424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/Orc.fbx
+  artifactKey: Guid(0b24e9734c1c6f149b6ee21d627f26fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Orc.fbx using Guid(0b24e9734c1c6f149b6ee21d627f26fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bfd968f37454394d21e7f3e48b14df4') in 0.0507113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.801725 seconds.
-  path: Assets/Models/Ultimate Monsters/Big/FBX
-  artifactKey: Guid(c3f1a2f48d67c064fb1236ed686dc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Big/FBX using Guid(c3f1a2f48d67c064fb1236ed686dc419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09d9f2a2c8486bb8ab10f6f7188544c1') in 0.0006393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/Mushnub_Evolved.fbx
+  artifactKey: Guid(be730b70278c06e43b50bec5382586d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Mushnub_Evolved.fbx using Guid(be730b70278c06e43b50bec5382586d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '764835bbd899df1bb7f34733d4962c24') in 0.0771672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.628325 seconds.
-  path: Assets/Models/Ultimate Monsters/Big/FBX/Birb.fbx
-  artifactKey: Guid(24d5297a0cb75a940abdba2ff6f23e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Big/FBX/Birb.fbx using Guid(24d5297a0cb75a940abdba2ff6f23e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7d89c4329e299be9ffa7114f6bc8f25') in 0.0457271 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/Wizard.fbx
+  artifactKey: Guid(fb0ebe46e7ffc2843a7a019ca42a7c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Wizard.fbx using Guid(fb0ebe46e7ffc2843a7a019ca42a7c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaa6edb041539056c10d22c601b58c21') in 0.0718584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.766441 seconds.
-  path: Assets/Models/Ultimate Monsters/Big/FBX/BlueDemon.fbx
-  artifactKey: Guid(402b9c657a01d0f44844e24bf76829ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ultimate Monsters/Big/FBX/BlueDemon.fbx using Guid(402b9c657a01d0f44844e24bf76829ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5699c547cacd04cb5120457d14a5a6d5') in 0.0530734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/Mushnub.fbx
+  artifactKey: Guid(4451a1996812ce04b93b5af3610ac6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Mushnub.fbx using Guid(4451a1996812ce04b93b5af3610ac6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2a433f9639114ca513c2dcaf86ecbf0') in 0.0373301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
 ========================================================================
 Received Import Request.
-  Time since last request: 406.442105 seconds.
-  path: Assets/XR
-  artifactKey: Guid(22baeac49dfd54025859cd02808b06f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR using Guid(22baeac49dfd54025859cd02808b06f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ded686f0a5166b12c0f51ff3ca0e7e3') in 0.0011061 seconds
-Number of updated asset objects reloaded before import = 94Number of asset objects unloaded after import = 0
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Ultimate Monsters/Blob/FBX/Dog.fbx
+  artifactKey: Guid(dfc859694a07285498c0c8f501500327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ultimate Monsters/Blob/FBX/Dog.fbx using Guid(dfc859694a07285498c0c8f501500327) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b209632dd1d6df4e80bf7ea9a616cb') in 0.0434125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.943536 seconds.
-  path: Assets/XRI
-  artifactKey: Guid(125427525ff210c4a827128d61a44674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI using Guid(125427525ff210c4a827128d61a44674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f04e1b1cf191f9c3b6e27653385f8a24') in 0.0007584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.822733 seconds.
-  path: Assets/XRI/Settings
-  artifactKey: Guid(70f89941d930be849a262e603f98e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI/Settings using Guid(70f89941d930be849a262e603f98e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f579b5ab933871170f42f484ac14649') in 0.0007016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

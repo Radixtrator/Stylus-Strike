@@ -13,8 +13,12 @@ public class NPC : MonoBehaviour
     Gate gate;
     void Start()
     {
-        target = GameObject.Find("Gate");
-        gate = target.GetComponent<Gate>();
+        GameObject[] targets = GameObject.FindGameObjectsWithTag("target");
+        if (targets.Length > 0)
+        {
+            target = targets[Random.Range(0, targets.Length)];
+        }
+        gate = GameObject.FindGameObjectWithTag("Gate").GetComponent<Gate>();
         animator = GetComponent<Animator>();
         navigation = GetComponent<UnityEngine.AI.NavMeshAgent>();
         navigation.destination = target.transform.position;
@@ -35,6 +39,7 @@ public class NPC : MonoBehaviour
     }
     IEnumerator AttackStance()
     {
+        navigation.enabled = false;
         yield return new WaitForSeconds(1);
         if (gate.health > 0)
         {

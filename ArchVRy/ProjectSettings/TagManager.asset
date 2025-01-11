@@ -7,6 +7,10 @@ TagManager:
   - Anchor
   - Gate
   - target
+  - spawner
+  - enemy
+  - GameManager
+  - arrow
   layers:
   - Default
   - TransparentFX
@@ -14,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - enemy
+  - environment
   - 
   - 
   - 

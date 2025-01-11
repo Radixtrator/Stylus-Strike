@@ -7891,3 +7891,11 @@ Received Import Request.
 Start importing Assets/Scenes/Castle/LightingData.asset using Guid(aa918d2fa81c7b04abb6af96e8d39832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10195a4e512e4d372bae46cbedf4b4e9') in 0.0040069 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 153.480861 seconds.
+  path: Assets/Scenes/Castle/New Lighting Settings.lighting
+  artifactKey: Guid(88c4cda5bf5b42948a0e0ad8a4f5cb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Castle/New Lighting Settings.lighting using Guid(88c4cda5bf5b42948a0e0ad8a4f5cb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd834d70a9a8cd3d760b5919055cfa2b8') in 0.0025817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

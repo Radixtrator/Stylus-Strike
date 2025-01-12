@@ -83,7 +83,7 @@ public class CustomAction : MonoBehaviour
             arrowLoaded = true;
             GameObject newArrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, arrowSpawnPoint.rotation);
             arrow = newArrow.GetComponent<Arrow>();
-            arrow.transform.SetParent(arrowSpawnPoint);
+            arrow.transform.SetParent(stylus.transform);
         }
     }
 

@@ -1,0 +1,2 @@
+C:\Users\NuiLabR10\Documents\Git\ArchVRy\ArchVRy\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\NuiLabR10\Documents\Git\ArchVRy\ArchVRy\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

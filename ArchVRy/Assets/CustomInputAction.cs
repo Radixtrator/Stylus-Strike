@@ -35,8 +35,8 @@ public class CustomAction : MonoBehaviour
         Debug.Log("Distance between stylus and left controller: " + distance);
 
         // Define the minimum and maximum distances
-        float minDistance = 0.49f;
-        float maxDistance = 0.56f;
+        float minDistance = 0.17f;
+        float maxDistance = 0.27f;
 
         // Define the minimum and maximum shoot forces
         float minShootForce = 50f * 0.1f;

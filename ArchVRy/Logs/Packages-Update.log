@@ -26,3 +26,11 @@ The following packages were added:
   com.unity.multiplayer.center@1.0.0
 The following packages were updated:
   com.unity.learn.iet-framework from version 4.0.2 to 4.0.3
+
+=== Sun Jan 12 18:53:17 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.xr.openxr from version 1.13.1 to 1.14.0

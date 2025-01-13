@@ -18,6 +18,7 @@ public class ArcheryTarget : MonoBehaviour
     {
         if (other.gameObject.tag == "arrow")
         {
+            Debug.Log("should start game");
             gameManager.StartGame();
             other.GetComponent<Rigidbody>().isKinematic = true;
         }

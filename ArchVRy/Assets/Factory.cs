@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.XR.Interaction.Toolkit.Attachment;
 
 public class Factory : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class Factory : MonoBehaviour
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
         orc = enemies[0];
-        
+
     }
     IEnumerator SpawnOrc()
     {
@@ -23,12 +24,12 @@ public class Factory : MonoBehaviour
         Transform spawnPoint = spawningPoints[Random.Range(0, spawningPoints.Length)];
         Instantiate(orc, spawnPoint.position, Quaternion.identity);
         enemyCounter++;
-        if (enemyCounter <= gameManager.maxEnemies) StartCoroutine(SpawnOrc());
+        if (enemyCounter <= gameManager.maxEnemies && gameManager.gate.health > 0) StartCoroutine(SpawnOrc());
         else StopCoroutine(SpawnOrc());
     }
     void Update()
     {
-        
+
     }
     public void StartSpawning()
     {

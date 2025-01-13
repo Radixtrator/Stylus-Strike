@@ -13,10 +13,11 @@ public class CustomAction : MonoBehaviour
     public GameObject stylus;
     public GameObject leftController;
     bool arrowLoaded = true;
+    float prevDistance = 0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        shootAction.action.performed += ShootArrow;
+        shootAction.action.performed += ShootArrowAction;
         reloadAction.action.performed += ReloadArrow;
 
         lineRenderer = gameObject.AddComponent<LineRenderer>();
@@ -31,8 +32,11 @@ public class CustomAction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float distance = Vector3.Distance(stylus.transform.position, leftController.transform.position);
-        Debug.Log("Distance between stylus and left controller: " + distance);
+        if (distance > prevDistance) distance = prevDistance;
+        
+        //Debug.Log("Distance between stylus and left controller: " + distance);
 
         // Define the minimum and maximum distances
         float minDistance = 0.17f;
@@ -58,10 +62,15 @@ public class CustomAction : MonoBehaviour
         }
 
     }
-    public void ShootArrow(InputAction.CallbackContext context)
+    public void ShootArrowAction(InputAction.CallbackContext context)
+    {
+        Debug.Log("Aiming");
+        arrow.aiming = true;
+    }
+    public void ShootArrow()
     {
         arrowLoaded = false;
-        Debug.Log("Shoot Arrow");
+        //Debug.Log("Shoot Arrow");
         arrow.isFlying = true;
         Transform parentTransform = arrow.transform.parent;
         if (parentTransform != null)
@@ -84,6 +93,7 @@ public class CustomAction : MonoBehaviour
             GameObject newArrow = Instantiate(arrowPrefab, arrowSpawnPoint.position, arrowSpawnPoint.rotation);
             arrow = newArrow.GetComponent<Arrow>();
             arrow.transform.SetParent(stylus.transform);
+            arrow.inputAction = this;
         }
     }
 

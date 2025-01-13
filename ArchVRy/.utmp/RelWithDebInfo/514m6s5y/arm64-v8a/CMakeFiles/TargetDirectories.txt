@@ -1,0 +1,5 @@
+D:/Users/radix/Documents/GitHub/ArchVRy/ArchVRy/.utmp/RelWithDebInfo/514m6s5y/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Users/radix/Documents/GitHub/ArchVRy/ArchVRy/.utmp/RelWithDebInfo/514m6s5y/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Users/radix/Documents/GitHub/ArchVRy/ArchVRy/.utmp/RelWithDebInfo/514m6s5y/arm64-v8a/GameActivity/CMakeFiles/game.dir
+D:/Users/radix/Documents/GitHub/ArchVRy/ArchVRy/.utmp/RelWithDebInfo/514m6s5y/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+D:/Users/radix/Documents/GitHub/ArchVRy/ArchVRy/.utmp/RelWithDebInfo/514m6s5y/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+D:\Users\radix\Documents\GitHub\ArchVRy\ArchVRy\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Users\radix\Documents\GitHub\ArchVRy\ArchVRy\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

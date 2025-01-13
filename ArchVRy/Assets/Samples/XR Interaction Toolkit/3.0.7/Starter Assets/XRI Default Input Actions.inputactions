@@ -982,7 +982,7 @@
                     "id": "13bce50b-0533-4570-b006-74bc186e19c0",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "initialStateCheck": false
                 },
                 {
@@ -1285,7 +1285,7 @@
                 {
                     "name": "",
                     "id": "faffbdfc-8f9c-4f32-acd3-a2fb788ab1d3",
-                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "path": "<XRController>{LeftHand}/gripPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -1296,7 +1296,7 @@
                 {
                     "name": "",
                     "id": "c7f7abd6-d87d-4d4e-9f99-23c2ffdfee4c",
-                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

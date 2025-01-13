@@ -4,7 +4,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public AudioSource hornSound;
-    Gate gate;
+    public Gate gate;
     Factory factory;
     public int maxEnemies = 50;
     public TMP_Text gateHealth;
